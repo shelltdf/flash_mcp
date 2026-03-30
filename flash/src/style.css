@@ -1,0 +1,29 @@
+:root {
+  --app-bg: #2a2a2a;
+  --bar-bg: #383838;
+  --panel-bg: #323232;
+  --stage-outer: #1e1e1e;
+  --border: #1f1f1f;
+  --hover-bg: #4a4a4a;
+  --text: #e8e8e8;
+  --muted: #a0a0a0;
+  --accent: #1473e6;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
